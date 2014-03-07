@@ -1,0 +1,61 @@
+title:            "Dennis Rogers"
+description:      "I'm a web developer and tech professional, trying not to making things worse."
+disqus_shortname: drogersnet
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              "http://0.0.0.0:4000/"
+
+# Owner/author information
+owner:
+  name:           Dennis Rogers
+  avatar:         me.jpg
+  bio:            "I'm a web developer and tech professional, trying not to making things worse."
+  email:          dennis@drogers.net
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  twitter:        _drogers
+  facebook:       drake1701
+  github:         Drake1701
+  instagram:      drake1701
+  pinterest:      drake1701
+  steam:          Drake1701 
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+pygments:    true
+markdown:    redcarpet
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
