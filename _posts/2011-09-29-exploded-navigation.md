@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Exploded Navigation
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 97
-wordpress_url: http://drogers.net/?p=97
 date: 2011-09-29 14:39:10 -04:00
-categories: 
-- Posts
+permalink: 2011/09/exploded-navigation/
 tags: 
 - magento
 - ecommerce

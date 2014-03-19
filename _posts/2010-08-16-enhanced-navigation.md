@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Enhanced Navigation
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 84
-wordpress_url: http://drogers.net/?p=84
 date: 2010-08-16 15:29:59 -04:00
-categories: 
-- Posts
+permalink: 2010/08/enhanced-navigation/
 tags: 
 - magento
 - ecommerce

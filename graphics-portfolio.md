@@ -1,21 +1,8 @@
 --- 
-layout: page
-status: publish
-published: true
+layout: default
 title: Graphics Portfolio
-author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 27
-wordpress_url: http://drogers.net/wp/?page_id=27
 date: 2010-02-02 21:48:56 -05:00
-categories: 
-- Posts
-tags: []
-
-comments: []
-
+permalink: /graphics-portfolio/
 ---
 The majority of my graphic design, such as it is, consists of desktop wallpaper and forum banners. I've put together a sample of those which I've made over the years. Hopefully they demonstrate my eye for color and design, along with my skill at photoshop.
 

@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Circle Navigation
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 71
-wordpress_url: http://drogers.net/?p=71
 date: 2010-04-15 20:32:19 -04:00
-categories: 
-- Posts
+permalink: 2010/04/circle-navigation
 tags: 
 - javascript
 - math

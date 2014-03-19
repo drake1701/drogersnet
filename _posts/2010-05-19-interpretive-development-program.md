@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Interpretive Development Program
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 75
-wordpress_url: http://drogers.net/?p=75
 date: 2010-05-19 18:27:13 -04:00
-categories: 
-- Posts
+permalink: 2010/05/interpretive-development-program
 tags: 
 - jquery
 - javascript

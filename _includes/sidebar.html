@@ -1,0 +1,43 @@
+<div id="sidebar">
+    <ul>
+        <li><img src="{{site.url}}images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}"/></li>
+        <li><p>{{ site.owner.bio }}</p></li>
+    </ul>
+    <ul class="pagelinks">
+        <li><a href="{{site.url}}dennis-rogers" title="About">About</a></li>
+        <li><a href="{{site.url}}graphics-portfolio" title="Graphics Portfolio">Graphics Portfolio</a></li>
+        <li><a href="{{site.url}}photography" title="Photography">Photography</a></li>
+    </ul>
+    <ul>
+        <li>
+            <ul class="social">
+                <li style="background: url('/images/email-24x24.png') no-repeat left center"><a href="mailto:dennis@drogers.net"><span>dennis@drogers.net</span></a></li>
+                <li style="background: url('/images/facebook-24x24.png') no-repeat left center"><a href="http://www.facebook.com/Drake1701"><span>http://www.facebook.com/Drake1701</span></a></li>
+                <li style="background: url('/images/linkedin-24x24.png') no-repeat left center"><a href="http://www.linkedin.com/in/dennisrrogers"><span>http://www.linkedin.com/in/drake1701</span></a></li>
+                <li style="background: url('/images/twitter-24x24.png') no-repeat left center"><a href="http://www.twitter.com/_drogers"><span>http://www.twitter.com/drake1701</span></a></li>
+                <li style="background: url('/images/tumblr-24x24.png') no-repeat left center"><a href="http://www.drogers.net/blog"><span>http://drogers.net/blog</span></a></li>
+            </ul>
+        </li>
+
+        <li><h3>Archives</h3>
+            <ul class="pagelinks">
+            {% for post in site.posts %}
+            
+                {% capture day %}{{ post.date | date: '%B %Y' }}{% endcapture %}
+                {% capture nday %}{{ post.next.date | date: '%B %Y' }}{% endcapture %}
+            
+                {% if day != nday %}
+                <li><h4>{{ post.date | date: "%B %Y" }}</h4></li>
+                {% endif %}
+
+                {% if post.link %}
+                  <li class="entry-title"><a href="{{ baseurl }}{{ post.url }}" rel="bookmark" title="{{ post.title }}"><i class="icon-double-angle-right"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></li>
+                {% else %}
+                  <li class="entry-title"><a href="{{ baseurl }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></li>
+                {% endif %}                
+            
+            {% endfor %}        
+            </ul>
+        </li>
+    </ul>
+</div>

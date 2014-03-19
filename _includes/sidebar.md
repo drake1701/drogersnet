@@ -1,4 +1,0 @@
----
-* Me
-* Links
-* Social Media

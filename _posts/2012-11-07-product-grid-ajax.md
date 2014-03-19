@@ -1,24 +1,10 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Product Grid Ajax
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 104
-wordpress_url: http://drogers.net/?p=104
 date: 2012-11-07 17:18:35 -05:00
-categories: 
-- Posts
-tags: 
-- magento
-- ecommerce
-- jquery
-- javascript
-- theme
-- development
+permalink: 2012/11/product-grid-ajax/
+tags: [magento, ecommerce, jquery, javascript, theme, development]
 comments: []
 
 ---
@@ -26,9 +12,14 @@ For a recent client project we were asked to do several fancy implementations to
 
 The first was a product "quick view" feature with fully implemented quantity drop downs, configurable form elements, social media widgets and add to cart functionality.
 
-![Hover]({{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.45-AM.png)
-
-![Quick View]({{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.57-AM.png)
+<div class="row-fluid">
+<div class="span6">
+<a href="{{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.45-AM.png" data-featherlight="image"><img src="{{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.45-AM.png" alt="Hover" /></a>
+</div>
+<div class="span6">
+<a href="{{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.57-AM.png" data-featherlight="image"><img src="{{site.url}}images/2012/11/Screen-Shot-2012-11-07-at-11.57.57-AM.png" alt="Quick View" /></a>
+</div>
+</div>
 
 The main quick view box was pretty straightforward, with a little jquery to make the ajax call, a custom controller route to serve the page, and a template to arrange the content.  There was a little trickery required to make the social media play nice, and we had to involve some jquery modules to make the fancy dropdowns and scrollbars required by the client.
 

@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: Wordpress
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 34
-wordpress_url: http://drogers.net/wp/?p=34
 date: 2010-02-02 21:56:59 -05:00
-categories: 
-- Posts
+permalink: 2010/02/wordpress
 tags: 
 - wordpress
 - website

@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: eppley.org
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 52
-wordpress_url: http://drogers.net/2010/03/eppley-org/
 date: 2010-03-05 21:35:27 -05:00
-categories: 
-- Posts
+permalink: 2010/03/eppley-org
 tags: 
 - magento
 - ecommerce

@@ -1,17 +1,8 @@
 --- 
-layout: page
-status: publish
-published: true
+layout: default
 title: Photography
-author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 8
-wordpress_url: http://drogers.net/wp/?page_id=8
 date: 2010-02-02 20:10:41 -05:00
-categories: 
-- Posts
+permalink: /photography/
 ---
 ![Cat](/images/cat.jpg)
 

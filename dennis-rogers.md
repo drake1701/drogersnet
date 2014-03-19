@@ -1,25 +1,9 @@
 --- 
-layout: page
-status: publish
-published: true
+layout: default
 title: About
-author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 4
-wordpress_url: http://drogers.net/wp/?page_id=4
 date: 2010-02-02 19:13:06 -05:00
-categories: 
-- Posts
-tags: []
-
-comments: []
-
+permalink: /dennis-rogers/
 ---
-
-![Dennis Rogers]({{ site.url }}images/{{ site.owner.avatar }})
-
 Welcome to my little corner of the web. I am a web developer with a passion for design and detail. I have experience in photography and have used photoshop personally and professionally for nearly a decade. Most of my experinece is in PHP and MySQL, and I have worked on large applications and built a few simpler ones of my own.
 
 * [Resume](/resume.html)

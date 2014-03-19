@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: HTTP Referrer
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 92
-wordpress_url: http://drogers.net/?p=92
 date: 2010-08-25 22:25:40 -04:00
-categories: 
-- Posts
+permalink: 2010/08/http-referrer/
 tags: 
 - magento
 - ecommerce

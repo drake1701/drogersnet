@@ -1,17 +1,9 @@
 --- 
 layout: post
-status: publish
-published: true
 title: thelazyplayer.com
 author: Dennis
-author_login: admin
-author_email: dennis@drogers.net
-author_url: http://www.drogers.net
-wordpress_id: 55
-wordpress_url: http://drogers.net/?p=55
 date: 2010-03-17 17:27:27 -04:00
-categories: 
-- Posts
+permalink: 2010/03/thelazyplayer-com
 tags: 
 - magento
 - armory
